@@ -6,7 +6,6 @@ const second= function(){
 };
 const third= function(d,e){
     console.log(d+e);
-    return "";
 };
 const fullName= function(firstname,lastname){
     return firstname+" "+lastname;
@@ -25,7 +24,4 @@ const sixth= function(a1,b1,c1){
     if(!!a1===true){return a1;}
     if(!!b1===true){return b1;}
     if(!!c1===true){return c1;}
-    if(!!a1===true && !!b1===true && !!c1===true){return a1;}
-    if(!!a1===true && (!!b1===true || !!c1===true)){return a1;}
-    if(!!b1===true && !!c1===true){return b1;}
 };
